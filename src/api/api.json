@@ -3,12 +3,12 @@
         {
             "id": 1,
             "nome": "Sapato da nike",
-            "marca": "Nike",
             "categoria": "Corrida",
             "preco": 300,
+            "desconto": 10,
+            "marca": "Nike",
             "genero": "Masculino",
-            "estado": "Usado",
-            "desconto": 10
+            "estado": "Usado"
         },
         {
             "id": 2,

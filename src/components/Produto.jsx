@@ -2,7 +2,7 @@ import sapato from "../assets/produto-imagem.png";
 
 const Produto = ({ nome, categoria, preco, desconto, marca, genero }) => {
     return (
-        <div title="K-Swiss v8 - Masculino">
+        <div title={nome}>
             <div className="h-[320px] bg-white rounded shadow-xl relative flex justify-center items-center">
                 {
                     desconto > 0 && (
